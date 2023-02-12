@@ -150,6 +150,10 @@ static constexpr MultirotorMixer::Rotor _config_quad_plus[] {
 	{  1.000000, -0.000000,  1.000000,  1.000000 },
 	{ -0.000000,  1.000000, -1.000000,  1.000000 },
 	{ -0.000000, -1.000000, -1.000000,  1.000000 },
+	{  0.000000,  0.000000,  0.000000, -0.000000 },
+        {  0.000000,  0.000000,  0.000000, -0.000000 },
+        {  0.000000,  0.000000,  0.000000, -0.000000 },
+        {  0.000000,  0.000000,  0.000000, -0.000000 },
 };
 
 static constexpr MultirotorMixer::Rotor _config_quad_s250aq[] {
@@ -255,7 +259,7 @@ static constexpr unsigned _config_rotor_count[] {
 	8, /* octa_x */
 	4, /* quad_deadcat */
 	4, /* quad_h */
-	4, /* quad_plus */
+	8, /* quad_plus */
 	4, /* quad_s250aq */
 	4, /* quad_vtail */
 	8, /* quad_wide */
