@@ -28,4 +28,6 @@ and
 
 To modify the main flight controller firmware it is only required to merge the mc_rate_control and the mc_att_control foldes with the original folder located at "src/modules/". And the folder MultirotorMixer locsted at "src/lib/mixer/". Again, make sure to make a non significative change and save to make the compiler to consider the files changes.
 
+Finally, due that we are using a quad-rotor in the "+" configuration, we have to configure the mixer to add more actuator outputs to control the flaps, this is done by replacing the mixer_multirotor_normalized.generated.h file in the built firmware folder to be used, this folder is normally located at "build/<<name of the built target>>/src/lib/mixer/MultirotorMixer/"
+
 
