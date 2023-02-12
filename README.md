@@ -7,4 +7,6 @@ In iris model's folder, replace the sdf file of this repositoy, unzip and paste 
 
 ## Adding the modified plug-ins for the SITL simulation
 
-In order to perform the simulations of out quad-rotor model, it is necessary to add the modified plug-ins in the src folder of the sitl-simulation files. For this
+In order to perform the simulations of out quad-rotor model, it is necessary to add the modified plug-ins in the src folder of the sitl-simulation files. For this, paste the file "gazebo_motor_model_alex.cpp" into the next direction "/tools/sitl_gazebo/src". And replace the "gazebo_motor_model.h" in the "/tools/sitl_gazebo/include". 
+
+Make sure that, when paste or replace the files, open both files and make any non significative change and then save the file. This will help the compiler to know that some files were modified and need to be recompiled. 
