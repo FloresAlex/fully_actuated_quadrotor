@@ -1,5 +1,7 @@
 # fully_actuated_quadrotor
-Support files to implement in both, simulation and real experiments, our proposed fully-actuated quadrotor with flaps
+Support files to implement in both, simulation and real experiments, our proposed fully-actuated quadrotor with flaps. Tested simualtions and experiments were perform in the firmware version 1.12.0-rc1 of the main PX4-Firmware git-hub.
+
+Before replacing or modify any file of the original firmware, it is suggested to build the firware for SITL simulation, this will create the rewquired files before being modied.
 
 
 ## Configuring the SITL simulation files
